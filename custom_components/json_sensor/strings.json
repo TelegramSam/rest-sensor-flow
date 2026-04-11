@@ -1,0 +1,60 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Set up JSON Sensor",
+        "description": "Configure a URL that returns a JSON payload conforming to the JSON Sensor schema.",
+        "data": {
+          "url": "URL",
+          "name": "Name",
+          "scan_interval": "Poll interval (seconds)",
+          "prefix": "Prefix",
+          "headers": "HTTP Headers"
+        },
+        "data_description": {
+          "url": "The endpoint that returns the JSON payload",
+          "name": "Display name for this integration instance",
+          "scan_interval": "How often to poll the endpoint, in seconds (minimum 5)",
+          "prefix": "Optional prefix prepended to device names and entity IDs",
+          "headers": "Optional HTTP headers. Use JSON ({\"Key\": \"Value\"}) or one \"Key: Value\" per line"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to the endpoint",
+      "timeout": "Connection to endpoint timed out",
+      "invalid_payload": "Endpoint response does not match the expected schema",
+      "invalid_headers": "Headers could not be parsed — use JSON or \"Key: Value\" lines",
+      "unknown": "Unexpected error"
+    },
+    "abort": {
+      "already_configured": "This integration instance is already configured"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "JSON Sensor Options",
+        "data": {
+          "url": "URL",
+          "scan_interval": "Poll interval (seconds)",
+          "prefix": "Prefix",
+          "headers": "HTTP Headers"
+        },
+        "data_description": {
+          "url": "The endpoint that returns the JSON payload",
+          "scan_interval": "How often to poll the endpoint, in seconds (minimum 5)",
+          "prefix": "Optional prefix prepended to device names and entity IDs",
+          "headers": "Optional HTTP headers. Use JSON ({\"Key\": \"Value\"}) or one \"Key: Value\" per line"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to the endpoint",
+      "timeout": "Connection to endpoint timed out",
+      "invalid_payload": "Endpoint response does not match the expected schema",
+      "invalid_headers": "Headers could not be parsed — use JSON or \"Key: Value\" lines",
+      "unknown": "Unexpected error"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# Set up the development environment, mirroring the HA core script/setup convention.
+# Run this once after cloning, or any time requirements change.
+#
+# Prerequisites (Ubuntu/Debian — run once, requires sudo):
+#   sudo apt-get install python3-venv python3-pip
+set -e
+
+cd "$(dirname "$0")/.."
+
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements_test.txt

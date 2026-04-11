@@ -1,0 +1,399 @@
+{
+  "devices": {
+    "1": {
+      "name": "NICA",
+      "sensors": {
+        "hours_logged": {
+          "state": 13.5,
+          "name": "Hours Logged",
+          "unit": "h",
+          "state_class": "measurement",
+          "icon": "mdi:clock-check"
+        },
+        "min_hours": {
+          "state": 30.0,
+          "name": "Monthly Minimum",
+          "unit": "h",
+          "icon": "mdi:clock-start"
+        },
+        "max_hours": {
+          "state": 40.0,
+          "name": "Monthly Maximum",
+          "unit": "h",
+          "icon": "mdi:clock-end"
+        },
+        "prorated_min": {
+          "state": 10.71,
+          "name": "Prorated Minimum",
+          "unit": "h",
+          "state_class": "measurement",
+          "icon": "mdi:clock-outline"
+        },
+        "prorated_max": {
+          "state": 14.29,
+          "name": "Prorated Maximum",
+          "unit": "h",
+          "state_class": "measurement",
+          "icon": "mdi:clock-outline"
+        },
+        "delta_vs_min": {
+          "state": 2.79,
+          "name": "Delta vs Minimum",
+          "unit": "h",
+          "state_class": "measurement",
+          "icon": "mdi:trending-up"
+        },
+        "delta_vs_max": {
+          "state": -0.79,
+          "name": "Delta vs Maximum",
+          "unit": "h",
+          "state_class": "measurement",
+          "icon": "mdi:trending-up"
+        },
+        "hours_to_minimum": {
+          "state": 16.5,
+          "name": "Hours to Minimum",
+          "unit": "h",
+          "state_class": "measurement",
+          "icon": "mdi:clock-alert"
+        },
+        "hours_to_maximum": {
+          "state": 26.5,
+          "name": "Hours to Maximum",
+          "unit": "h",
+          "state_class": "measurement",
+          "icon": "mdi:clock-alert"
+        },
+        "daily_rate_to_minimum": {
+          "state": 1.83,
+          "name": "Daily Rate to Minimum",
+          "unit": "h/day",
+          "state_class": "measurement",
+          "icon": "mdi:calendar-clock"
+        },
+        "daily_rate_to_maximum": {
+          "state": 2.94,
+          "name": "Daily Rate to Maximum",
+          "unit": "h/day",
+          "state_class": "measurement",
+          "icon": "mdi:calendar-clock"
+        },
+        "projected_hours": {
+          "state": 37.8,
+          "name": "Projected Hours",
+          "unit": "h",
+          "state_class": "measurement",
+          "icon": "mdi:chart-timeline-variant"
+        },
+        "status": {
+          "state": "ahead",
+          "name": "Status",
+          "icon": "mdi:tag"
+        }
+      }
+    },
+    "2": {
+      "name": "TravelStorys",
+      "sensors": {
+        "hours_logged": {
+          "state": 13.12,
+          "name": "Hours Logged",
+          "unit": "h",
+          "state_class": "measurement",
+          "icon": "mdi:clock-check"
+        },
+        "min_hours": {
+          "state": 20.0,
+          "name": "Monthly Minimum",
+          "unit": "h",
+          "icon": "mdi:clock-start"
+        },
+        "max_hours": {
+          "state": 30.0,
+          "name": "Monthly Maximum",
+          "unit": "h",
+          "icon": "mdi:clock-end"
+        },
+        "prorated_min": {
+          "state": 7.14,
+          "name": "Prorated Minimum",
+          "unit": "h",
+          "state_class": "measurement",
+          "icon": "mdi:clock-outline"
+        },
+        "prorated_max": {
+          "state": 10.71,
+          "name": "Prorated Maximum",
+          "unit": "h",
+          "state_class": "measurement",
+          "icon": "mdi:clock-outline"
+        },
+        "delta_vs_min": {
+          "state": 5.98,
+          "name": "Delta vs Minimum",
+          "unit": "h",
+          "state_class": "measurement",
+          "icon": "mdi:trending-up"
+        },
+        "delta_vs_max": {
+          "state": 2.41,
+          "name": "Delta vs Maximum",
+          "unit": "h",
+          "state_class": "measurement",
+          "icon": "mdi:trending-up"
+        },
+        "hours_to_minimum": {
+          "state": 6.88,
+          "name": "Hours to Minimum",
+          "unit": "h",
+          "state_class": "measurement",
+          "icon": "mdi:clock-alert"
+        },
+        "hours_to_maximum": {
+          "state": 16.88,
+          "name": "Hours to Maximum",
+          "unit": "h",
+          "state_class": "measurement",
+          "icon": "mdi:clock-alert"
+        },
+        "daily_rate_to_minimum": {
+          "state": 0.76,
+          "name": "Daily Rate to Minimum",
+          "unit": "h/day",
+          "state_class": "measurement",
+          "icon": "mdi:calendar-clock"
+        },
+        "daily_rate_to_maximum": {
+          "state": 1.88,
+          "name": "Daily Rate to Maximum",
+          "unit": "h/day",
+          "state_class": "measurement",
+          "icon": "mdi:calendar-clock"
+        },
+        "projected_hours": {
+          "state": 36.74,
+          "name": "Projected Hours",
+          "unit": "h",
+          "state_class": "measurement",
+          "icon": "mdi:chart-timeline-variant"
+        },
+        "status": {
+          "state": "ahead",
+          "name": "Status",
+          "icon": "mdi:tag"
+        }
+      }
+    },
+    "3": {
+      "name": "T-Tech",
+      "sensors": {
+        "hours_logged": {
+          "state": 0.0,
+          "name": "Hours Logged",
+          "unit": "h",
+          "state_class": "measurement",
+          "icon": "mdi:clock-check"
+        },
+        "min_hours": {
+          "state": 10.0,
+          "name": "Monthly Minimum",
+          "unit": "h",
+          "icon": "mdi:clock-start"
+        },
+        "max_hours": {
+          "state": 40.0,
+          "name": "Monthly Maximum",
+          "unit": "h",
+          "icon": "mdi:clock-end"
+        },
+        "prorated_min": {
+          "state": 3.57,
+          "name": "Prorated Minimum",
+          "unit": "h",
+          "state_class": "measurement",
+          "icon": "mdi:clock-outline"
+        },
+        "prorated_max": {
+          "state": 14.29,
+          "name": "Prorated Maximum",
+          "unit": "h",
+          "state_class": "measurement",
+          "icon": "mdi:clock-outline"
+        },
+        "delta_vs_min": {
+          "state": -3.57,
+          "name": "Delta vs Minimum",
+          "unit": "h",
+          "state_class": "measurement",
+          "icon": "mdi:trending-up"
+        },
+        "delta_vs_max": {
+          "state": -14.29,
+          "name": "Delta vs Maximum",
+          "unit": "h",
+          "state_class": "measurement",
+          "icon": "mdi:trending-up"
+        },
+        "hours_to_minimum": {
+          "state": 10.0,
+          "name": "Hours to Minimum",
+          "unit": "h",
+          "state_class": "measurement",
+          "icon": "mdi:clock-alert"
+        },
+        "hours_to_maximum": {
+          "state": 40.0,
+          "name": "Hours to Maximum",
+          "unit": "h",
+          "state_class": "measurement",
+          "icon": "mdi:clock-alert"
+        },
+        "daily_rate_to_minimum": {
+          "state": 1.11,
+          "name": "Daily Rate to Minimum",
+          "unit": "h/day",
+          "state_class": "measurement",
+          "icon": "mdi:calendar-clock"
+        },
+        "daily_rate_to_maximum": {
+          "state": 4.44,
+          "name": "Daily Rate to Maximum",
+          "unit": "h/day",
+          "state_class": "measurement",
+          "icon": "mdi:calendar-clock"
+        },
+        "projected_hours": {
+          "state": 0.0,
+          "name": "Projected Hours",
+          "unit": "h",
+          "state_class": "measurement",
+          "icon": "mdi:chart-timeline-variant"
+        },
+        "status": {
+          "state": "at_risk",
+          "name": "Status",
+          "icon": "mdi:tag"
+        }
+      }
+    },
+    "totals": {
+      "name": "Consulting Totals",
+      "sensors": {
+        "today_hours": {
+          "state": 4.32,
+          "name": "Today Hours",
+          "unit": "h",
+          "state_class": "measurement",
+          "icon": "mdi:calendar-today"
+        },
+        "month_hours": {
+          "state": 26.62,
+          "name": "Month Hours",
+          "unit": "h",
+          "state_class": "measurement",
+          "icon": "mdi:calendar-month"
+        },
+        "min_hours": {
+          "state": 80.0,
+          "name": "Monthly Minimum",
+          "unit": "h",
+          "icon": "mdi:clock-start"
+        },
+        "max_hours": {
+          "state": 120.0,
+          "name": "Monthly Maximum",
+          "unit": "h",
+          "icon": "mdi:clock-end"
+        },
+        "prorated_min": {
+          "state": 28.57,
+          "name": "Prorated Minimum",
+          "unit": "h",
+          "state_class": "measurement",
+          "icon": "mdi:clock-outline"
+        },
+        "prorated_max": {
+          "state": 42.86,
+          "name": "Prorated Maximum",
+          "unit": "h",
+          "state_class": "measurement",
+          "icon": "mdi:clock-outline"
+        },
+        "delta_vs_min": {
+          "state": -1.95,
+          "name": "Delta vs Minimum",
+          "unit": "h",
+          "state_class": "measurement",
+          "icon": "mdi:trending-up"
+        },
+        "delta_vs_max": {
+          "state": -16.24,
+          "name": "Delta vs Maximum",
+          "unit": "h",
+          "state_class": "measurement",
+          "icon": "mdi:trending-up"
+        },
+        "hours_to_minimum": {
+          "state": 53.38,
+          "name": "Hours to Minimum",
+          "unit": "h",
+          "state_class": "measurement",
+          "icon": "mdi:clock-alert"
+        },
+        "hours_to_maximum": {
+          "state": 93.38,
+          "name": "Hours to Maximum",
+          "unit": "h",
+          "state_class": "measurement",
+          "icon": "mdi:clock-alert"
+        },
+        "daily_rate_to_minimum": {
+          "state": 5.93,
+          "name": "Daily Rate to Minimum",
+          "unit": "h/day",
+          "state_class": "measurement",
+          "icon": "mdi:calendar-clock"
+        },
+        "daily_rate_to_maximum": {
+          "state": 10.38,
+          "name": "Daily Rate to Maximum",
+          "unit": "h/day",
+          "state_class": "measurement",
+          "icon": "mdi:calendar-clock"
+        },
+        "projected_hours": {
+          "state": 74.54,
+          "name": "Projected Hours",
+          "unit": "h",
+          "state_class": "measurement",
+          "icon": "mdi:chart-timeline-variant"
+        },
+        "status": {
+          "state": "on_track",
+          "name": "Status",
+          "icon": "mdi:tag"
+        },
+        "elapsed_days": {
+          "state": 5,
+          "name": "Elapsed Working Days",
+          "unit": "d",
+          "state_class": "measurement",
+          "icon": "mdi:calendar-check"
+        },
+        "remaining_days": {
+          "state": 9,
+          "name": "Remaining Working Days",
+          "unit": "d",
+          "state_class": "measurement",
+          "icon": "mdi:calendar-arrow-right"
+        },
+        "adjusted_total_days": {
+          "state": 14,
+          "name": "Adjusted Total Working Days",
+          "unit": "d",
+          "icon": "mdi:calendar-range"
+        }
+      }
+    }
+  }
+}

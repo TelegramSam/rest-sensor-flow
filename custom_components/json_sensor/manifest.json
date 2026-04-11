@@ -1,0 +1,11 @@
+{
+  "domain": "json_sensor",
+  "name": "JSON Sensor",
+  "version": "0.1.0",
+  "documentation": "https://github.com/your-repo/rest-sensor-flow",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": [],
+  "iot_class": "cloud_polling",
+  "config_flow": true
+}

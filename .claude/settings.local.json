@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(C:/Users/teleg/AppData/Local/Programs/Python/Python312/Scripts/pytest.exe tests/ --tb=short -q)",
+      "Bash(C:/Users/teleg/AppData/Local/Programs/Python/Python312/python.exe -c \"import pytest_socket; print\\([x for x in dir\\(pytest_socket\\) if not x.startswith\\('_'\\)]\\)\")",
+      "WebSearch",
+      "Bash(docker --version)",
+      "Bash(where docker:*)",
+      "Bash(powershell.exe -Command \"Get-Command docker -ErrorAction SilentlyContinue | Select-Object -ExpandProperty Source\")",
+      "Bash(wsl --status)",
+      "Bash(wsl --list --verbose)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:developers.home-assistant.io)",
+      "Bash(wsl -- bash -c \"python3 --version && pip3 --version\")",
+      "Bash(wsl -- bash -c \"python3 --version; which python3; apt list --installed 2>/dev/null | grep python3\")",
+      "Bash(wsl -- bash -c \"sudo apt-get install -y python3-pip python3-venv -q 2>&1 | tail -3\")",
+      "Bash(wsl -- bash -c \"cd /mnt/c/Users/teleg/Documents/repos/rest-sensor-flow && python3 -m venv .venv && .venv/bin/pip install -r requirements_test.txt -q 2>&1 | tail -5\")",
+      "Bash(wsl -- bash -c \"curl -sS https://bootstrap.pypa.io/get-pip.py -o /tmp/get-pip.py && python3 /tmp/get-pip.py --user -q 2>&1 | tail -3 && python3 -m pip --version\")",
+      "Bash(wsl -- bash -c \"cd /mnt/c/Users/teleg/Documents/repos/rest-sensor-flow && source .venv/bin/activate && pytest tests/ --tb=short -q 2>&1\")",
+      "Bash(wsl -d Ubuntu bash -c \"cd /mnt/c/Users/teleg/Documents/repos/rest-sensor-flow && .venv/bin/pytest tests/ -x --tb=short -q 2>&1 | tail -30\")",
+      "Bash(wsl -d Ubuntu bash -c \"cd /mnt/c/Users/teleg/Documents/repos/rest-sensor-flow && .venv/bin/pytest tests/ --tb=short -q 2>&1 | tail -15\")",
+      "Bash(wsl -d Ubuntu bash -c \"cd /mnt/c/Users/teleg/Documents/repos/rest-sensor-flow && .venv/bin/pytest tests/test_config_flow.py::test_user_step_creates_entry tests/test_sensor.py::test_two_instances_no_collision --tb=long -q 2>&1 | tail -50\")",
+      "Bash(wsl -d Ubuntu bash -c \"cd /mnt/c/Users/teleg/Documents/repos/rest-sensor-flow && .venv/bin/pytest tests/ --tb=short -q 2>&1 | tail -10\")",
+      "Bash(wsl -d Ubuntu bash -c \"cd /mnt/c/Users/teleg/Documents/repos/rest-sensor-flow && .venv/bin/pytest tests/test_config_flow.py::test_user_step_creates_entry --tb=long -q 2>&1 | grep -A 30 'FAILED\\\\|AssertionError\\\\|assert\\\\|Error'\")",
+      "Bash(wsl -d Ubuntu bash -c \"cd /mnt/c/Users/teleg/Documents/repos/rest-sensor-flow && .venv/bin/pytest tests/ --tb=short -q 2>&1 | tail -5\")",
+      "Bash(wsl -d Ubuntu bash -c \"cd /mnt/c/Users/teleg/Documents/repos/rest-sensor-flow && .venv/bin/pytest tests/test_config_flow.py::test_user_step_cannot_connect --tb=long -q 2>&1 | tail -25\")",
+      "Bash(wsl -d Ubuntu bash -c \"cd /mnt/c/Users/teleg/Documents/repos/rest-sensor-flow && .venv/bin/pytest tests/test_fixture.py -v --tb=short 2>&1 | tail -30\")",
+      "Bash(wsl -d Ubuntu bash -c \"cd /mnt/c/Users/teleg/Documents/repos/rest-sensor-flow && .venv/bin/pytest tests/ -q 2>&1 | tail -3\")"
+    ]
+  }
+}

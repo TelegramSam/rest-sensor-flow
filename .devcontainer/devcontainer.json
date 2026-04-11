@@ -1,0 +1,25 @@
+{
+  "name": "JSON Sensor Integration",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "postCreateCommand": "script/setup",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.pylint",
+        "ryanluker.vscode-coverage-gutters"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "${containerWorkspaceFolder}/.venv/bin/python",
+        "python.testing.pytestEnabled": true,
+        "python.testing.pytestArgs": [
+          "tests",
+          "--tb=short"
+        ]
+      }
+    }
+  },
+  "remoteEnv": {
+    "PYTHONPATH": "${containerWorkspaceFolder}"
+  }
+}
