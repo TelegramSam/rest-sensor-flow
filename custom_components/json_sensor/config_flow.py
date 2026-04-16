@@ -24,7 +24,7 @@ from .const import (
 )
 
 _LOGGER = logging.getLogger(__name__)
-_REQUEST_TIMEOUT = 10
+_REQUEST_TIMEOUT = 90
 
 
 def _parse_headers(raw: str) -> dict[str, str]:

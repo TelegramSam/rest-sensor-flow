@@ -13,7 +13,7 @@ from .const import CONF_HEADERS, CONF_SCAN_INTERVAL, CONF_URL, DEFAULT_SCAN_INTE
 
 _LOGGER = logging.getLogger(__name__)
 
-_REQUEST_TIMEOUT = 10
+_REQUEST_TIMEOUT = 90
 
 
 def _effective_config(entry: ConfigEntry) -> dict:
